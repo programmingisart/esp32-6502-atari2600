@@ -1,4 +1,3 @@
-
 #include <Arduino.h>
 
 uint16_t PC; //Program Counter, 16bit
@@ -19,8 +18,7 @@ uint8_t PF0;
 uint8_t PF1;
 uint8_t PF2;
 uint8_t COLUPF;
-
-
+uint8_t CTRLPF;
 
 uint8_t execute(uint8_t opc, uint8_t arg1, uint8_t arg2);
 
